@@ -1,0 +1,31 @@
+{
+  "evaluation_version": "1.0",
+  "sport": "soccer",
+  "skill_number": 1,
+  "student_video": "videos\\student\\inside_touch.mp4",
+  "teacher_template": "D:\\physicalAI\\videos\\teacher_templates\\soccer\\soccer_01_soccer_01_InsideTouch_front.json",
+  "scores": {
+    "posture": 50.0,
+    "rhythm": 30.0,
+    "gaze": 20.0,
+    "total": 100.0
+  },
+  "similarity": {
+    "posture": 100.0,
+    "rhythm": 100.0,
+    "gaze": 100.0
+  },
+  "dtw": {
+    "posture": 0.0,
+    "rhythm": 0.0,
+    "gaze": 0.0
+  },
+  "student_quality": {
+    "pose_detection_rate": 1.0,
+    "ball_detection_rate": 0.77
+  },
+  "grade": "A",
+  "feedback": [
+    "전체 동작이 선생님 기준 동작과 매우 유사합니다."
+  ]
+}
