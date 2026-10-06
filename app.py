@@ -263,7 +263,7 @@ with gr.Blocks(title="피트니스 AI") as demo:
 
     # [03] 화면 입력 요소
     selected_sport = gr.Radio(
-        choices=["줄넘기", "배구", "축구", "달리기", "멀리뛰기"],
+        choices=["줄넘기", "축구", "달리기"],
         value="줄넘기",
         label="🏀 운동 종목 선택"
     )
